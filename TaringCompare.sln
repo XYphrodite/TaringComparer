@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaringCompare", "TaringCompare\TaringCompare.csproj", "{598311C6-6A7F-43BC-9226-41F3DC5F6C51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{598311C6-6A7F-43BC-9226-41F3DC5F6C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598311C6-6A7F-43BC-9226-41F3DC5F6C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598311C6-6A7F-43BC-9226-41F3DC5F6C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598311C6-6A7F-43BC-9226-41F3DC5F6C51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56DF89B3-790A-41B9-A98A-D7D4388BCE64}
+	EndGlobalSection
+EndGlobal
