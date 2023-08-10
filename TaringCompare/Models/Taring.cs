@@ -10,7 +10,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace TaringComparer.Models
+namespace TaringCompare.Models
 {
     public class Taring
     {

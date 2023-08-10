@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using TaringComparer.Models;
+using TaringCompare.Models;
 
-namespace MieltaMarketplace.Models
+namespace TaringCompare.Models
 {
     public class Tank
     {
