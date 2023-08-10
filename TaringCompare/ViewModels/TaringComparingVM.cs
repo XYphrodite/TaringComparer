@@ -14,6 +14,7 @@ namespace TaringCompare.ViewModels
         private ObservableCollection<Taring> _secondTarings;
         private Taring _selectedTaring;
         private Taring _secondSelectedTaring;
+        private string _outputStr;
 
 
         public TaringComparingVM()
@@ -25,6 +26,8 @@ namespace TaringCompare.ViewModels
 
             LoadFromJsonCommand = new RelayCommand(execute => AddFromJsonCommand());
             Compare = new RelayCommand(compare => CompareTaring());
+
+
         }
         public ObservableCollection<Taring> Tarings
         {
@@ -64,12 +67,26 @@ namespace TaringCompare.ViewModels
             }
         }
 
+        public string OutputStr
+        {
+            get
+            {
+                return _outputStr;
+            }
+            set
+            {
+                _outputStr = value;
+                OnPropertyChanged(nameof(OutputStr));
+            }
+        }
+
         public ICommand LoadFromJsonCommand { get; }
         public ICommand Compare { get; }
 
         private void AddFromJsonCommand()
         {
             Tarings = new ObservableCollection<Taring>(TaringLoader.LoadFromJson());
+            OutputStr = $"{Tarings.Count} was loaded from json!";
         }
         private void CompareTaring()
         {

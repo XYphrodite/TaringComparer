@@ -29,18 +29,19 @@
             <MenuItem Header="File">
                 <MenuItem Header="Load from json" 
                           Command="{Binding LoadFromJsonCommand}"/>
-                <!--<MenuItem Header="Load from DB"></MenuItem>-->
             </MenuItem>
         </Menu>
         <!--First Taring-->
-        <ComboBox x:Name="Tarings"
+        <ComboBox ItemsSource="{Binding Tarings}"
                   SelectedItem="{Binding SelectedTaring}"
                        Grid.Row="2" Grid.Column="0"
                        Grid.ColumnSpan="2"
                        FontSize="20" Margin="10,0,0,0">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding Title}"></TextBlock>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Title}"></TextBlock>
+                    </StackPanel>
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
@@ -76,10 +77,9 @@
                    FontFamily="Consolas"
                    Padding="10"
                    Foreground="White"
-                   Background="Black"
->
+                   Background="Black">
                 <Label.Content>
-                    <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+                    <AccessText TextWrapping="Wrap" Text="{Binding OutputStr}"/>
                 </Label.Content>
             </Label>
         </ScrollViewer>
@@ -89,6 +89,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
+            
             <Button Grid.Row="1" Content="Compare"
                     Background="DarkGreen"
                     Foreground="White"
