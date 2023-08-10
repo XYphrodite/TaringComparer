@@ -59,7 +59,6 @@ namespace TaringCompare.ViewModels
             }
         }
 
-
         public ICommand LoadFromJsonCommand { get; }
 
     }

@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:TaringCompare.Views" xmlns:vm="clr-namespace:TaringCompare.ViewModels"
              mc:Ignorable="d" 
-             d:DesignHeight="600" d:DesignWidth="700"
+             d:DesignHeight="450" d:DesignWidth="700"
              Background="White">
     <UserControl.DataContext>
         <vm:TaringComparingVM/>
@@ -20,9 +20,9 @@
             <RowDefinition Height="20"/>
             <RowDefinition Height="20"/>
             <RowDefinition Height="30"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="30"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
@@ -37,38 +37,42 @@
                        Grid.Row="2" Grid.Column="0"
                        Grid.ColumnSpan="2"
                        FontSize="20" Margin="10,0,0,0"/>
-        <Label Grid.Row="3" Grid.Column="0"
-                       Grid.ColumnSpan="2"
-                   FontSize="12">
-            <Label.Content>
-                <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
-            </Label.Content>
-        </Label>
+        <ScrollViewer Grid.Row="3" Grid.Column="0"
+                       Grid.ColumnSpan="2">
+            <Label FontSize="12">
+                <Label.Content>
+                    <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+                </Label.Content>
+            </Label>
+        </ScrollViewer>
+
         <!--Second Taring-->
         <TextBlock Text="Second taring"
                        Grid.Row="4" Grid.Column="0"
                        Grid.ColumnSpan="2"
                        FontSize="20" Margin="10,0,0,0"/>
-        <Label Grid.Row="5" Grid.Column="0"
-                       Grid.ColumnSpan="2"
-                   FontSize="12">
-            <Label.Content>
-                <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
-            </Label.Content>
-        </Label>
+        <ScrollViewer Grid.Row="5" Grid.Column="0"
+                       Grid.ColumnSpan="2">
+            <Label FontSize="12">
+                <Label.Content>
+                    <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+                </Label.Content>
+            </Label>
+        </ScrollViewer>
         <!--OUTPUT-->
-        <Label Grid.Row="6" Grid.Column="0"
-                       Grid.ColumnSpan="3"
-                   FontSize="15"
+        <ScrollViewer Grid.Row="6" Grid.Column="0"
+                       Grid.ColumnSpan="3">
+            <Label FontSize="15"
                    FontFamily="Consolas"
                    Padding="10"
                    Foreground="White"
                    Background="Black"
                Margin="10">
-            <Label.Content>
-                <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
-            </Label.Content>
-        </Label>
+                <Label.Content>
+                    <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+                </Label.Content>
+            </Label>
+        </ScrollViewer>
         <!--CHART-->
 
     </Grid>
