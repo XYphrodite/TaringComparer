@@ -12,7 +12,7 @@
     </UserControl.DataContext>
     <Grid Margin="0, 0, 0 ,0">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="100"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -27,8 +27,9 @@
         </Grid.RowDefinitions>
         <Menu Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
             <MenuItem Header="File">
-                <MenuItem Header="Load from json"></MenuItem>
-                <MenuItem Header="Load from DB"></MenuItem>
+                <MenuItem Header="Load from json" 
+                          Command="{Binding LoadFromJsonCommand}"/>
+                <!--<MenuItem Header="Load from DB"></MenuItem>-->
             </MenuItem>
         </Menu>
         <!--First Taring-->

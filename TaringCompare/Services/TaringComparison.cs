@@ -23,5 +23,17 @@ namespace TaringCompare.Services
             }
             return arr.Sum() / arr.Length;
         }
+
+        public static List<Taring> SelectSuitableTarings(List<Taring> list, ushort litersMax)
+        {
+            List<Taring> tars = new();
+            list.ForEach(t =>
+            {
+                if (t.LitersMax == litersMax) tars.Add(t);
+            });
+            return tars;
+        }
+
+        public string GetTaringInfo(Taring taring) => $"Title: {taring.Title}, Description: {taring.Description}, LitersMax: {taring.LitersMax}, Amount of taring items: {taring.TaringList.Count}";
     }
 }
