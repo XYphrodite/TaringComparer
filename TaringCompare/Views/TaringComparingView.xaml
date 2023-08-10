@@ -77,6 +77,19 @@
             </Label>
         </ScrollViewer>
         <!--CHART-->
-
+        <Grid Grid.Row="2" Grid.Column="2" Grid.RowSpan="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="1" Content="Compare"
+                    Background="DarkGreen"
+                    Foreground="White"
+                    Width="255"
+                    Padding="2"
+                    Margin="4"
+                    HorizontalAlignment="Left"
+                    Command="{Binding Compare}"/>
+        </Grid>
     </Grid>
 </UserControl>

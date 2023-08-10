@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
 using TaringCompare.Commands;
@@ -23,6 +24,7 @@ namespace TaringCompare.ViewModels
             _secondSelectedTaring = new Taring();
 
             LoadFromJsonCommand = new RelayCommand(execute => AddFromJsonCommand());
+            Compare = new RelayCommand(compare => CompareTaring())
         }
         public ObservableCollection<Taring> Tarings
         {
@@ -63,8 +65,17 @@ namespace TaringCompare.ViewModels
         }
 
         public ICommand LoadFromJsonCommand { get; }
+        public ICommand Compare { get; }
 
         private void AddFromJsonCommand() => TaringLoader.LoadFromJson();
+        private void CompareTaring()
+        {
+            //throw new NotImplementedException();
+            var l1 = TaringComparison.Interpolize(SelectedTaring.TaringList, 100);
+            var l2 = TaringComparison.Interpolize(SecondSelectedTaring.TaringList, 100);
+            var res = TaringComparison.Compare(l1, l2);
+            //draw charts
+        }
 
     }
 }

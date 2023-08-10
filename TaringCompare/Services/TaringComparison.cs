@@ -7,7 +7,7 @@ namespace TaringCompare.Services
 {
     public class TaringComparison
     {
-        public List<double> Interpolize(List<TaringItem> list, int precision)
+        public static List<double> Interpolize(List<TaringItem> list, int precision)
         {
             throw new NotImplementedException();
             //return new List<double>();
@@ -34,6 +34,6 @@ namespace TaringCompare.Services
             return tars;
         }
 
-        public string GetTaringInfo(Taring taring) => $"Title: {taring.Title}, Description: {taring.Description}, LitersMax: {taring.LitersMax}, Amount of taring items: {taring.TaringList.Count}";
+        public static string GetTaringInfo(Taring taring) => $"Title: {taring.Title}, Description: {taring.Description}, LitersMax: {taring.LitersMax}, Amount of taring items: {taring.TaringList.Count}";
     }
 }
