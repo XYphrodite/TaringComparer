@@ -24,7 +24,7 @@ namespace TaringCompare.ViewModels
             _secondSelectedTaring = new Taring();
 
             LoadFromJsonCommand = new RelayCommand(execute => AddFromJsonCommand());
-            Compare = new RelayCommand(compare => CompareTaring())
+            Compare = new RelayCommand(compare => CompareTaring());
         }
         public ObservableCollection<Taring> Tarings
         {
@@ -67,7 +67,10 @@ namespace TaringCompare.ViewModels
         public ICommand LoadFromJsonCommand { get; }
         public ICommand Compare { get; }
 
-        private void AddFromJsonCommand() => TaringLoader.LoadFromJson();
+        private void AddFromJsonCommand()
+        {
+            Tarings = new ObservableCollection<Taring>(TaringLoader.LoadFromJson());
+        }
         private void CompareTaring()
         {
             //throw new NotImplementedException();
