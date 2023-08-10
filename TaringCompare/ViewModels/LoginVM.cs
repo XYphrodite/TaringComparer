@@ -1,10 +1,26 @@
-﻿using TaringCompare.Models;
+﻿using System;
+using System.Windows;
+using System.Windows.Input;
+using TaringCompare.Commands;
+using TaringCompare.Models;
 
 namespace TaringCompare.ViewModels
 {
     public class LoginVM : ViewModelBase
     {
-        private User _user = new User();
+        private User _user;
+        public ICommand LoginCommand { get; }
+
+        public LoginVM()
+        {
+            _user = new User();
+            LoginCommand = new RelayCommand(param => LoggedIn(param));
+        }
+
+        private void LoggedIn(object param)
+        {
+            MessageBox.Show($"Logged in successfully as {param}");
+        }
 
         public string UserName
         {

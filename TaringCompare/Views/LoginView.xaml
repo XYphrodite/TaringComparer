@@ -43,6 +43,8 @@
         <Button x:Name="LoginBnt"
                 Content="Login" Foreground="White"
                 Background="Black" Margin="0,25"
-                Height="35" Width="250"/>
+                Height="35" Width="250"
+                Command="{Binding LoginCommand}"
+                CommandParameter="{Binding UserName}"/>
     </StackPanel>
 </UserControl>
