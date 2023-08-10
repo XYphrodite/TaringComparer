@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using TaringCompare.Models;
@@ -16,12 +17,19 @@ namespace TaringCompare.Services
             ofd.ShowDialog();
             string path = ofd.FileName;
             string data = File.ReadAllText(path);
-            return !string.IsNullOrEmpty(data) ? JsonSerializer.Deserialize<List<Taring>>(data) : new List<Taring>();
+            var tars = JsonSerializer.Deserialize<List<TaringViewModel>>(data);
+            return !string.IsNullOrEmpty(data) ? tars.Select(t => t.Taring) : new List<Taring>();
         }
 
         public static async Task LoadFromDb()
         {
             throw new NotImplementedException();
         }
+    }
+
+    public class TaringViewModel
+    {
+        public Taring Taring { get; set; }
+        public int Quantity { get; set; }
     }
 }

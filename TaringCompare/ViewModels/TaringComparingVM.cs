@@ -15,6 +15,7 @@ namespace TaringCompare.ViewModels
         private Taring _selectedTaring;
         private Taring _secondSelectedTaring;
         private string _outputStr;
+        private string _firstTaringInfo;
 
 
         public TaringComparingVM()
@@ -55,6 +56,7 @@ namespace TaringCompare.ViewModels
                 _selectedTaring = value;
                 OnPropertyChanged(nameof(SelectedTaring));
                 SecondTarings = new ObservableCollection<Taring>(TaringComparison.SelectSuitableTarings(SecondTarings.ToList(), value.LitersMax));
+                FirstTaringInfo = TaringComparison.GetTaringInfo(value);
             }
         }
         public Taring SecondSelectedTaring
@@ -77,6 +79,15 @@ namespace TaringCompare.ViewModels
             {
                 _outputStr = value;
                 OnPropertyChanged(nameof(OutputStr));
+            }
+        }
+        public string FirstTaringInfo
+        {
+            get { return _firstTaringInfo; }
+            set
+            {
+                _firstTaringInfo = value;
+                OnPropertyChanged(nameof(FirstTaringInfo));
             }
         }
 
