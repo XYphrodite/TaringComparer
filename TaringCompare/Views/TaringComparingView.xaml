@@ -10,7 +10,7 @@
     <UserControl.DataContext>
         <vm:TaringComparingVM/>
     </UserControl.DataContext>
-    <Grid Margin="0, 0, 0 ,0">
+    <Grid Margin="0, 0, 0 ,10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="100"/>
@@ -38,7 +38,8 @@
                        Grid.ColumnSpan="2"
                        FontSize="20" Margin="10,0,0,0"/>
         <ScrollViewer Grid.Row="3" Grid.Column="0"
-                       Grid.ColumnSpan="2">
+                      Grid.ColumnSpan="2"
+                      Margin="10,0,0,0">
             <Label FontSize="12">
                 <Label.Content>
                     <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
@@ -52,7 +53,8 @@
                        Grid.ColumnSpan="2"
                        FontSize="20" Margin="10,0,0,0"/>
         <ScrollViewer Grid.Row="5" Grid.Column="0"
-                       Grid.ColumnSpan="2">
+                      Grid.ColumnSpan="2"
+                      Margin="10,0,0,0">
             <Label FontSize="12">
                 <Label.Content>
                     <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
@@ -61,13 +63,14 @@
         </ScrollViewer>
         <!--OUTPUT-->
         <ScrollViewer Grid.Row="6" Grid.Column="0"
-                       Grid.ColumnSpan="3">
+                      Grid.ColumnSpan="3"
+                      Margin="10">
             <Label FontSize="15"
                    FontFamily="Consolas"
                    Padding="10"
                    Foreground="White"
                    Background="Black"
-               Margin="10">
+>
                 <Label.Content>
                     <AccessText TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
                 </Label.Content>
