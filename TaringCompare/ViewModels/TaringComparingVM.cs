@@ -16,6 +16,8 @@ namespace TaringCompare.ViewModels
         private Taring _secondSelectedTaring;
         private string _outputStr;
         private string _firstTaringInfo;
+        private string _secondTaringInfo;
+
 
 
         public TaringComparingVM()
@@ -55,7 +57,8 @@ namespace TaringCompare.ViewModels
             {
                 _selectedTaring = value;
                 OnPropertyChanged(nameof(SelectedTaring));
-                SecondTarings = new ObservableCollection<Taring>(TaringComparison.SelectSuitableTarings(SecondTarings.ToList(), value.LitersMax));
+                SecondTarings = new ObservableCollection<Taring>(TaringComparison.SelectSuitableTarings(Tarings.ToList(), value.LitersMax));
+                OnPropertyChanged(nameof(SecondTarings));
                 FirstTaringInfo = TaringComparison.GetTaringInfo(value);
             }
         }
@@ -66,6 +69,8 @@ namespace TaringCompare.ViewModels
             {
                 _secondSelectedTaring = value;
                 OnPropertyChanged(nameof(SecondSelectedTaring));
+                SecondTaringInfo = TaringComparison.GetTaringInfo(SecondSelectedTaring);
+                OnPropertyChanged(nameof(SecondTaringInfo));
             }
         }
 
@@ -90,6 +95,15 @@ namespace TaringCompare.ViewModels
                 OnPropertyChanged(nameof(FirstTaringInfo));
             }
         }
+        public string SecondTaringInfo
+        {
+            get { return _secondTaringInfo; }
+            set
+            {
+                _secondTaringInfo = value;
+                OnPropertyChanged(nameof(SecondTaringInfo));
+            }
+        }
 
         public ICommand LoadFromJsonCommand { get; }
         public ICommand Compare { get; }
@@ -101,7 +115,6 @@ namespace TaringCompare.ViewModels
         }
         private void CompareTaring()
         {
-            //throw new NotImplementedException();
             var l1 = TaringComparison.Interpolize(SelectedTaring.TaringList, 100);
             var l2 = TaringComparison.Interpolize(SecondSelectedTaring.TaringList, 100);
             var res = TaringComparison.Compare(l1, l2);

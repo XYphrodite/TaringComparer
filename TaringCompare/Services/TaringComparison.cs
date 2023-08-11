@@ -34,6 +34,6 @@ namespace TaringCompare.Services
             return tars;
         }
 
-        public static string GetTaringInfo(Taring taring) => $"Title: {taring.Title}, Description: {taring.Description}, LitersMax: {taring.LitersMax}, Amount of taring items: {taring.TaringList.Count}";
+        public static string GetTaringInfo(Taring taring) => taring != null ? $"Title: {taring.Title}, Description: {taring.Description}, LitersMax: {taring.LitersMax}, Amount of taring items: {taring.TaringList.Count}" : string.Empty;
     }
 }
