@@ -11,6 +11,7 @@ namespace TaringCompare.Services
 {
     public class TaringComparison
     {
+        //https://www.youtube.com/watch?v=-HvR7MhfFFs
         public static ChartValues<ObservablePoint> Interpolize(ChartValues<ObservablePoint> points, int precision = 100)
         {
             points = new ChartValues<ObservablePoint>(points.OrderBy(p => p.X));
