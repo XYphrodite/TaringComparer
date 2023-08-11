@@ -1,5 +1,8 @@
-﻿using System;
+﻿using LiveCharts;
+using LiveCharts.Defaults;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using TaringCompare.Models;
 
@@ -7,10 +10,10 @@ namespace TaringCompare.Services
 {
     public class TaringComparison
     {
-        public static List<double> Interpolize(List<TaringItem> list, int precision)
+        public static ChartValues<ObservablePoint> Interpolize(ChartValues<ObservablePoint> points, int precision)
         {
+            ChartValues<ObservablePoint> toReturn = new();
             throw new NotImplementedException();
-            //return new List<double>();
         }
 
         public static double Compare(List<double> list1, List<double> list2)

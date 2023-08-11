@@ -73,7 +73,7 @@ namespace TaringCompare.ViewModels
 
                 });
                 FirstTaringPoints = points;
-                FirstInterpolated = points;
+                FirstInterpolated = TaringComparison.Interpolize(points,100);
 
 
             }
@@ -94,7 +94,7 @@ namespace TaringCompare.ViewModels
                         points.Add(new ObservablePoint(ti.RawLevel, ti.LitersLevel));
                     });
                     SecondTaringPoints = points;
-                    SecondInterpolated = points;
+                    SecondInterpolated = TaringComparison.Interpolize(points, 100);
                 }
             }
         }

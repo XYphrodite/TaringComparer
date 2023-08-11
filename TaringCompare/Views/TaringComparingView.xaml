@@ -111,11 +111,14 @@
                         <lvc:ScatterSeries Title="{Binding Path=SecondSelectedTaring.Title}" Values="{Binding SecondTaringPoints}"
                                    PointGeometry="{x:Static lvc:DefaultGeometries.Cross}" Fill="Transparent"
                                            Stroke="SandyBrown" StrokeThickness="1"/>
-                        <lvc:LineSeries Title="First Interpolated" Values="{Binding FirstInterpolated}"
-                                           PointGeometry="{x:Static lvc:DefaultGeometries.None}"
+                        <lvc:ScatterSeries Title="First Interpolated" Values="{Binding FirstInterpolated}"
+                                           PointGeometry="{x:Static lvc:DefaultGeometries.Circle}"
+                                           StrokeThickness="1" Stroke="BlueViolet"
                                            />
-                        <lvc:LineSeries Title="Second Interpolated" Values="{Binding SecondInterpolated}"
-                                           StrokeThickness="1"/>
+                        <lvc:ScatterSeries Title="Second Interpolated" Values="{Binding SecondInterpolated}"
+                                        PointGeometry="{x:Static lvc:DefaultGeometries.Circle}"
+                                        StrokeThickness="1" Stroke="Red"
+                                           />
                     </lvc:CartesianChart.Series>
 
                     <lvc:CartesianChart.AxisX>
