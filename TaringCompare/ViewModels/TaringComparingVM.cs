@@ -73,7 +73,7 @@ namespace TaringCompare.ViewModels
 
                 });
                 FirstTaringPoints = points;
-                FirstInterpolated = TaringComparison.Interpolize(points,100);
+                FirstInterpolated = TaringComparison.Interpolize(points,300);
 
 
             }
