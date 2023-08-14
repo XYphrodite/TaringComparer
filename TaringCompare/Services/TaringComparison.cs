@@ -16,67 +16,63 @@ namespace TaringCompare.Services
         {
             points = new ChartValues<ObservablePoint>(points.OrderBy(p => p.X));
             ChartValues<ObservablePoint> toReturn = new();
-            int n = points.Count - 1;
-            double minX = points.Min(p => p.X), maxX = points.Max(p => p.X);
-            double h = (maxX - minX) / (precision - 1);
-
-
-            double[] a_arr = new double[n];
-            for (int i = 0; i < a_arr.Length; i++)
-            {
-                a_arr[i] = FindA(a_arr, i);
-            }
-
-
-            for (double i = minX; i < maxX; i += h)
-            {
-                var newPoint = new ObservablePoint { X = i };
-                double newY = FindY(a_arr, i, points.Select(p => p.X).ToArray());
-                newPoint.Y = newY;
-                toReturn.Add(newPoint);
-            }
+            var interpolized = NewtonianInterpolation(points.Select(p => p.X), points.Select(p => p.Y));
+            for(int i=0;i<interpolized.Item1.Count;i++)
+                toReturn.Add(new ObservablePoint { X = interpolized.Item1[i], Y = interpolized.Item2[i] });
             return toReturn;
-
-
-
-
-
-
-
-
-
-            double FindY(double[] a_arr, double x, double[] x_arr)
-            {
-                double y = 0;
-                for (int i = 0; i < a_arr.Length; i++)
-                {
-                    y += a_arr[i] * FindXPolynom(x, x_arr, i);
-                }
-                return y;
-            }
-
-            double FindXPolynom(double x, double[] x_arr, int num)
-            {
-                double xPolynom = 1;
-                for (int i = 0; i < num - 1; i++)
-                {
-                    xPolynom *= (x - x_arr[i-1]);
-                }
-                return xPolynom;
-            }
-            double FindA(double[] a_arr, int i)
-            {
-
-                if (i == 0)
-                    return points[i].Y;
-                else
-                {
-                    double a = points[i].Y - a_arr[i - 1] * FindXPolynom(points[i].X, points.Select(p => p.X).ToArray(), i);
-                    return a;
-                }
-            }
         }
 
+
+        public static (List<double>,List<double>) NewtonianInterpolation(IEnumerable<double> x_arr, IEnumerable<double> y_arr, int precision = 100)
+        {
+            int length = x_arr.Count();
+            List<double> interpolizedXvalues = new List<double>();
+            double minX = x_arr.Min(), maxX = x_arr.Max();
+            List<double> a_arr = new List<double>();
+            GetRatio();
+            List<double> interpolizedYvalues = new List<double>();
+            double h = (maxX - minX) / precision;
+            for(double i = minX; i < maxX; i += h)
+            {
+                interpolizedXvalues.Add(i);
+                interpolizedYvalues.Add(GetASum(i));
+            }
+
+
+            return (interpolizedXvalues, interpolizedYvalues);
+
+            void GetRatio()
+            {
+                for (int i = 0; i < length; i++)
+                    a_arr.Add(CountRatio());
+
+
+                double CountRatio()
+                {
+                    int n = a_arr.Count;
+                    return (y_arr.ElementAt(n) - (GetASum(x_arr.ElementAt(n)))) / (GetXPolynom(x_arr.ElementAt(n), n));
+                }
+            }
+
+
+            double GetASum(double x)
+            {
+                double sum = 0;
+                for (int i = 0; i < a_arr.Count; i++)
+                {
+                    sum += a_arr[i] * GetXPolynom(x, i);
+                }
+                return sum;
+            }
+
+            double GetXPolynom(double x, int num)
+            {
+                double x_p = 1;
+                for (int i = 0; i < num; i++)
+                    x_p *= (x - x_arr.ElementAt(i));
+                return x_p;
+            }
+        }
 
 
         public static double Compare(List<double> list1, List<double> list2)
