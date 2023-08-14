@@ -17,8 +17,9 @@ namespace TaringCompare.Services
             points = new ChartValues<ObservablePoint>(points.OrderBy(p => p.X));
             ChartValues<ObservablePoint> toReturn = new();
             //var interpolized = NewtonianInterpolation(points.Select(p => p.X), points.Select(p => p.Y), precision);
-            var spline = new CubicSplineInterpolation(points.Select(p => p.X).ToArray(), points.Select(p => p.Y).ToArray());
-            var interpolized = spline.Count(precision);
+            //var spline = new CubicSplineInterpolation(points.Select(p => p.X).ToArray(), points.Select(p => p.Y).ToArray());
+            //var interpolized = spline.Count(precision);
+            var interpolized = LinearInterpolation(points.Select(p => p.X).ToArray(), points.Select(p => p.Y).ToArray(), precision);
             for (int i = 0; i < interpolized.Item1.Count; i++)
                 toReturn.Add(new ObservablePoint { X = interpolized.Item1[i], Y = interpolized.Item2[i] });
             return toReturn;
@@ -72,15 +73,65 @@ namespace TaringCompare.Services
                 return x_p;
             }
         }
-
-
-        public static double Compare(List<double> list1, List<double> list2)
+        static (List<double>, List<double>) LinearInterpolation(double[] xValues, double[] yValues, int precision)
         {
-            if (list1.Count != list2.Count) throw new ArgumentException("Different number of elements in the compared arrays");
-            double[] arr = new double[list1.Count];
-            for (int i = 0; i < list1.Count; i++)
-                arr[i] = list1[i] / list2[i];
-            return arr.Sum() / arr.Length;
+            if (xValues.Length != yValues.Length)
+                throw new ArgumentException("Arrays must have the same length.");
+
+            int n = xValues.Length;
+            List<double> interpolizedXvalues = new List<double>();
+            List<double> interpolizedYvalues = new List<double>();
+            double minX = xValues.Min(), maxX = xValues.Max();
+            double h = (maxX - minX) / precision;
+            for (double i = minX; i < maxX; i += h)
+            {
+                interpolizedXvalues.Add(i);
+                interpolizedYvalues.Add(Interpolate(i));
+            }
+            return (interpolizedXvalues, interpolizedYvalues);
+
+            double Interpolate(double x)
+            {
+                int i = Array.BinarySearch(xValues, x);
+
+                if (i < 0)
+                {
+                    i = ~i;
+
+                    if (i == 0 || i == n)
+                        throw new ArgumentException("X is out of range.");
+
+                    double x1 = xValues[i - 1];
+                    double x2 = xValues[i];
+                    double y1 = yValues[i - 1];
+                    double y2 = yValues[i];
+
+                    double y = y1 + (x - x1) * (y2 - y1) / (x2 - x1);
+                    return y;
+                }
+                else
+                {
+                    return yValues[i];
+                }
+            }
+        }
+
+        public static double Compare(IEnumerable<double> list1, IEnumerable<double> list2)
+        {
+            if (list1.Count() != list2.Count()) throw new ArgumentException("Different number of elements in the compared arrays");
+            double[] arr = new double[list1.Count()];
+            for (int i = 0; i < list1.Count(); i++)
+                arr[i] = (list1.ElementAt(i) / list2.ElementAt(i)) is double.NaN ? 0 : list1.ElementAt(i) / list2.ElementAt(i);
+            double r = 0;
+            for(int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] != 1)
+                {
+                    r -= Math.Abs(1 - arr[i])*2;
+                }
+                r += 1;
+            }
+            return r / arr.Length;
         }
 
         public static List<Taring> SelectSuitableTarings(List<Taring> list, ushort litersMax)
@@ -220,4 +271,6 @@ namespace TaringCompare.Services
             return (interpolizedXvalues, interpolizedYvalues);
         }
     }
+
+
 }
