@@ -49,20 +49,17 @@ namespace TaringCompare.Services
                 for (int i = 0; i < length; i++)
                     a_arr.Add(CountRatio());
 
-
                 double CountRatio()
                 {
                     int n = a_arr.Count;
-                    return (y_arr.ElementAt(n) - (GetASum(x_arr.ElementAt(n)))) / (GetXPolynom(x_arr.ElementAt(n), n));
+                    return (y_arr.ElementAt(n) - GetASum(x_arr.ElementAt(n))) / GetXPolynom(x_arr.ElementAt(n), n);
                 }
             }
             double GetASum(double x)
             {
                 double sum = 0;
                 for (int i = 0; i < a_arr.Count; i++)
-                {
                     sum += a_arr[i] * GetXPolynom(x, i);
-                }
                 return sum;
             }
             double GetXPolynom(double x, int num)
@@ -126,11 +123,8 @@ namespace TaringCompare.Services
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] != 1)
-                {
                     sum -= Math.Abs(arr[i] - 1);
-                }
                 sum += 1;
-
             }
             return sum / arr.Length;
         }
