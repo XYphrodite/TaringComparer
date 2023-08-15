@@ -7,7 +7,6 @@ using System.Windows.Input;
 using TaringCompare.Commands;
 using TaringCompare.Models;
 using TaringCompare.Services;
-using LiveCharts.Wpf;
 
 namespace TaringCompare.ViewModels
 {
@@ -35,6 +34,7 @@ namespace TaringCompare.ViewModels
             _secondSelectedTaring = new Taring();
 
             LoadFromJsonCommand = new RelayCommand(execute => AddFromJsonCommand());
+            LoadFromDbCommand = new RelayCommand(execute => AddFromDbCommand());
 
 
         }
@@ -73,7 +73,7 @@ namespace TaringCompare.ViewModels
 
                 });
                 FirstTaringPoints = points;
-                FirstInterpolated = TaringComparison.Interpolize(points,500);
+                FirstInterpolated = TaringComparison.Interpolize(points, 500);
 
 
             }
@@ -95,7 +95,7 @@ namespace TaringCompare.ViewModels
                     });
                     SecondTaringPoints = points;
                     SecondInterpolated = TaringComparison.Interpolize(points, 500);
-                    OutputStr = "Compliance rate: " +Math.Round(TaringComparison.Compare(FirstInterpolated.Select(p => p.Y), SecondInterpolated.Select(p => p.Y))*100,2).ToString()+"%";
+                    OutputStr = "Compliance rate: " + Math.Round(TaringComparison.Compare(FirstInterpolated.Select(p => p.Y), SecondInterpolated.Select(p => p.Y)) * 100, 2).ToString() + "%";
                 }
             }
         }
@@ -168,12 +168,18 @@ namespace TaringCompare.ViewModels
         }
 
         public ICommand LoadFromJsonCommand { get; }
+        public ICommand LoadFromDbCommand { get; }
         public ICommand Compare { get; }
 
         private void AddFromJsonCommand()
         {
             Tarings = new ObservableCollection<Taring>(TaringLoader.LoadFromJson());
             OutputStr = $"{Tarings.Count} was loaded from json!";
+        }
+        private void AddFromDbCommand()
+        {
+            Tarings = new ObservableCollection<Taring>(TaringLoader.LoadFromDb());
+            //OutputStr = $"{Tarings.Count} was loaded from json!";
         }
 
     }

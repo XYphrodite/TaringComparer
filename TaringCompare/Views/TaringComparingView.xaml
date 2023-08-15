@@ -31,6 +31,8 @@
             <MenuItem Header="File">
                 <MenuItem Header="Load from json" 
                           Command="{Binding LoadFromJsonCommand}"/>
+                <MenuItem Header="Load from db" 
+                          Command="{Binding LoadFromDbCommand}"/>
             </MenuItem>
         </Menu>
         <!--First Taring-->
