@@ -2,8 +2,6 @@
 using LiveCharts.Defaults;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.Linq;
 using TaringCompare.Models;
 
@@ -21,8 +19,6 @@ namespace TaringCompare.Services
                 toReturn.Add(new ObservablePoint { X = interpolized.Item1[i], Y = interpolized.Item2[i] });
             return toReturn;
         }
-
-
 
 
         //https://www.youtube.com/watch?v=-HvR7MhfFFs
@@ -263,6 +259,4 @@ namespace TaringCompare.Services
             return (interpolizedXvalues, interpolizedYvalues);
         }
     }
-
-
 }
