@@ -121,20 +121,18 @@ namespace TaringCompare.Services
             if (list1.Count() != list2.Count()) throw new ArgumentException("Different number of elements in the compared arrays");
             double[] arr = new double[list1.Count()];
             for (int i = 0; i < list1.Count(); i++)
-                arr[i] = (list1.ElementAt(i) / list2.ElementAt(i)) is double.NaN ? 1 : list1.ElementAt(i) / list2.ElementAt(i);
-            double r = 0;
-            for(int i = 0; i < arr.Length; i++)
+                arr[i] = (list1.ElementAt(i) / list2.ElementAt(i)) is not double.NaN ? list1.ElementAt(i) / list2.ElementAt(i) : 1;
+            double sum = 0;
+            for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] != 1)
                 {
-                    r += Math.Abs(1 - arr[i]);
+                    sum -= Math.Abs(arr[i] - 1);
                 }
-                else
-                {
-                    r += 1;
-                }
+                sum += 1;
+
             }
-            return r / arr.Length;
+            return sum / arr.Length;
         }
 
         public static List<Taring> SelectSuitableTarings(List<Taring> list, ushort litersMax)
