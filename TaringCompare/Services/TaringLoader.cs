@@ -25,10 +25,4 @@ namespace TaringCompare.Services
 
         public static IEnumerable<Taring> LoadFromDb() => Repository.GetTarings();
     }
-
-    //public class TaringViewModel
-    //{
-    //    public Taring Taring { get; set; }
-    //    public int Quantity { get; set; }
-    //}
 }

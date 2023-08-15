@@ -1,11 +1,8 @@
 ﻿using Dapper;
-using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TaringCompare.Models;
 
 namespace TaringCompare.Data
@@ -15,7 +12,7 @@ namespace TaringCompare.Data
         public static IEnumerable<Taring> GetTarings()
         {
             IDbConnection dbConnection = new SqlConnection(AppConnection.ConnectionString);
-            if(dbConnection.State == ConnectionState.Closed) dbConnection.Open();
+            if (dbConnection.State == ConnectionState.Closed) dbConnection.Open();
             string sql = @"select * from Taring";
             var tars = dbConnection.Query<Taring>(sql, commandType: CommandType.Text);
             foreach (var tar in tars)
