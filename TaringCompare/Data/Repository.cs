@@ -16,7 +16,13 @@ namespace TaringCompare.Data
         {
             IDbConnection dbConnection = new SqlConnection(AppConnection.ConnectionString);
             if(dbConnection.State == ConnectionState.Closed) dbConnection.Open();
-            var tars = dbConnection.Query<Taring>("select * from Taring", commandType: CommandType.Text);
+            string sql = @"select * from Taring";
+            var tars = dbConnection.Query<Taring>(sql, commandType: CommandType.Text);
+            foreach (var tar in tars)
+            {
+                sql = $"select * from TaringItem where TaringItem.TaringID = {tar.TaringID}";
+                tar.TaringList = dbConnection.Query<TaringItem>(sql, commandType: CommandType.Text).ToList();
+            }
             return tars;
         }
     }

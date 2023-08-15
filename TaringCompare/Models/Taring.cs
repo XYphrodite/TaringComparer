@@ -5,6 +5,7 @@ namespace TaringCompare.Models
 {
     public class Taring
     {
+        public long TaringID { get; set; }
         public ushort LitersMax { get; set; }
         public ushort LevelMin { get; set; }
         public ushort LevelMax { get; set; }
