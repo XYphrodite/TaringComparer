@@ -17,6 +17,7 @@ namespace TaringCompare.Services
             OpenFileDialog ofd = new();
             ofd.ShowDialog();
             string path = ofd.FileName;
+            if (string.IsNullOrEmpty(path)) return new List<Taring>();
             string data = File.ReadAllText(path);
             var tars = JsonSerializer.Deserialize<List<Taring>>(data);
             return tars is not null ?  tars : new List<Taring>();
