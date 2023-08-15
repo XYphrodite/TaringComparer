@@ -121,15 +121,18 @@ namespace TaringCompare.Services
             if (list1.Count() != list2.Count()) throw new ArgumentException("Different number of elements in the compared arrays");
             double[] arr = new double[list1.Count()];
             for (int i = 0; i < list1.Count(); i++)
-                arr[i] = (list1.ElementAt(i) / list2.ElementAt(i)) is double.NaN ? 0 : list1.ElementAt(i) / list2.ElementAt(i);
+                arr[i] = (list1.ElementAt(i) / list2.ElementAt(i)) is double.NaN ? 1 : list1.ElementAt(i) / list2.ElementAt(i);
             double r = 0;
             for(int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] != 1)
                 {
-                    r -= Math.Abs(1 - arr[i])*2;
+                    r += Math.Abs(1 - arr[i]);
                 }
-                r += 1;
+                else
+                {
+                    r += 1;
+                }
             }
             return r / arr.Length;
         }

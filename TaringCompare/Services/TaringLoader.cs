@@ -17,8 +17,9 @@ namespace TaringCompare.Services
             ofd.ShowDialog();
             string path = ofd.FileName;
             string data = File.ReadAllText(path);
-            var tars = JsonSerializer.Deserialize<List<TaringViewModel>>(data);
-            return !string.IsNullOrEmpty(data) ? tars.Select(t => t.Taring) : new List<Taring>();
+            var tars = JsonSerializer.Deserialize<List<Taring>>(data);
+            //return !string.IsNullOrEmpty(data) ? tars.Select(t => t.Taring) : new List<Taring>();
+            return tars;
         }
 
         public static async Task LoadFromDb()
@@ -27,9 +28,9 @@ namespace TaringCompare.Services
         }
     }
 
-    public class TaringViewModel
-    {
-        public Taring Taring { get; set; }
-        public int Quantity { get; set; }
-    }
+    //public class TaringViewModel
+    //{
+    //    public Taring Taring { get; set; }
+    //    public int Quantity { get; set; }
+    //}
 }
