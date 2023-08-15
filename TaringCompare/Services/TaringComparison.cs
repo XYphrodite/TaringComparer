@@ -16,9 +16,6 @@ namespace TaringCompare.Services
         {
             points = new ChartValues<ObservablePoint>(points.OrderBy(p => p.X));
             ChartValues<ObservablePoint> toReturn = new();
-            //var interpolized = NewtonianInterpolation(points.Select(p => p.X), points.Select(p => p.Y), precision);
-            //var spline = new CubicSplineInterpolation(points.Select(p => p.X).ToArray(), points.Select(p => p.Y).ToArray());
-            //var interpolized = spline.Count(precision);
             var interpolized = LinearInterpolation(points.Select(p => p.X).ToArray(), points.Select(p => p.Y).ToArray(), precision);
             for (int i = 0; i < interpolized.Item1.Count; i++)
                 toReturn.Add(new ObservablePoint { X = interpolized.Item1[i], Y = interpolized.Item2[i] });
@@ -123,7 +120,7 @@ namespace TaringCompare.Services
             for (int i = 0; i < arr.Length; i++)
             {
                 if (arr[i] != 1)
-                    sum -= Math.Abs(arr[i] - 1);
+                    sum -= Math.Abs(arr[i] - 1)*10;
                 sum += 1;
             }
             return sum / arr.Length;
