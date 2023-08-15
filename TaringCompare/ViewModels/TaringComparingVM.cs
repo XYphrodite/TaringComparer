@@ -179,7 +179,7 @@ namespace TaringCompare.ViewModels
         private void AddFromDbCommand()
         {
             Tarings = new ObservableCollection<Taring>(TaringLoader.LoadFromDb());
-            //OutputStr = $"{Tarings.Count} was loaded from json!";
+            OutputStr = $"{Tarings.Count} was loaded from json!";
         }
 
     }

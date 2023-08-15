@@ -1,20 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Text.Json;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace TaringCompare.Models
 {
     public class Taring
     {
-        public int TaringID { get; set; }
         public ushort LitersMax { get; set; }
         public ushort LevelMin { get; set; }
         public ushort LevelMax { get; set; }

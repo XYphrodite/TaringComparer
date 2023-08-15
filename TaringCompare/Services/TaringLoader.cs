@@ -22,10 +22,7 @@ namespace TaringCompare.Services
             return tars is not null ?  tars : new List<Taring>();
         }
 
-        public static IEnumerable<Taring> LoadFromDb()
-        {
-            throw new NotImplementedException();
-        }
+        public static IEnumerable<Taring> LoadFromDb() => Repository.GetTarings();
     }
 
     //public class TaringViewModel
