@@ -74,7 +74,8 @@ namespace TaringCompare.ViewModels
                 });
                 FirstTaringPoints = points;
                 FirstInterpolated = TaringComparison.Interpolize(points, 500);
-
+                if(_secondInterpolated is not null) 
+                    OutputStr = "Compliance rate: " + Math.Round(TaringComparison.Compare(FirstInterpolated.Select(p => p.Y), SecondInterpolated.Select(p => p.Y)) * 100, 2).ToString() + "%";
 
             }
         }
