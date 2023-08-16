@@ -105,6 +105,54 @@ namespace TaringCompare.Services
                 }
             }
         }
+        static (List<double>, List<double>) CubicInterpolation(double[] xValues, double[] yValues, int precision)
+        {
+            if (xValues.Length != yValues.Length)
+                throw new ArgumentException("Arrays must have the same length.");
+
+            int n = xValues.Length;
+            List<double> interpolizedXvalues = new List<double>();
+            List<double> interpolizedYvalues = new List<double>();
+            double minX = xValues.Min(), maxX = xValues.Max();
+            double h = (maxX - minX) / precision;
+            for (double i = minX; i < maxX; i += h)
+            {
+                interpolizedXvalues.Add(i);
+                interpolizedYvalues.Add(Interpolate(xValues, yValues, i));
+            }
+            return (interpolizedXvalues, interpolizedYvalues);
+
+
+            double Interpolate(double[] x, double[] y, double point)
+            {
+                int n = x.Length;
+
+                // Выполняем поиск ближайшего значения x
+                int i;
+                for (i = 0; i < n; i++)
+                {
+                    if (x[i] > point)
+                    {
+                        break;
+                    }
+                }
+
+                // Выполняем интерполяцию с использованием значений x[i-1], x[i], y[i-1], y[i]
+                double h = x[i] - x[i - 1];
+                double t = (point - x[i - 1]) / h;
+                double t2 = t * t;
+                double t3 = t2 * t;
+                double c0 = y[i - 1];
+                double c1 = (y[i] - y[i - 1]) / h;
+                double c2 = (y[i - 1] * h + (y[i] - y[i - 1]) * h - (2 * y[i - 1] + y[i]) * t + (y[i] - y[i - 1]) * t2) / (h * h);
+                double c3 = (-y[i - 1] * h - (y[i] - y[i - 1]) * h + (2 * y[i - 1] + y[i]) * t - (y[i] - y[i - 1]) * t2) / (h * h * h);
+
+                // Вычисляем интерполированное значение
+                double result = c0 + c1 * (point - x[i - 1]) + c2 * t2 + c3 * t3;
+
+                return result;
+            }
+        }
 
         public static double Compare(IEnumerable<double> list1, IEnumerable<double> list2)
         {
