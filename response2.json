@@ -1,0 +1,6577 @@
+[
+  {
+    "Taring": {
+      "TaringID": 1,
+      "Ver": 0,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test Taring",
+      "Description": "Test Description.",
+      "CreationDate": "2023-07-05T15:07:42.3771551",
+      "SensorLength": 88,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1 align='center'>Description</h1><p align='center'>Not created, please add the description.</p></body></html>",
+      "State": 32,
+      "TaringList": [
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 1
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 1
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 1
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 1
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 1
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 1
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 1
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 1
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 1
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 1
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 1
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 1
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 1
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 1
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 1
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 1
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 1
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 1
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 1
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 1
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 1
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 1
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 1
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 1
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 1
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 1
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 1
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 1
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 1
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 1
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 2,
+      "Ver": 0,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "KMZ_53520",
+      "Description": "This is a taring for a KAMAZ truck, with a tank volume of 520 liters. The measurement error is 0.01%. Taring was performed using an automatic taring station. Taring is not intended only for testing equipment. This taring is distributed free of charge.",
+      "CreationDate": "2023-07-05T15:07:42.3771551",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1 align='center'>Description</h1><p align='center'>Not created, please add the description.</p></body></html>",
+      "State": 16,
+      "TaringList": [
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 2
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 2
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 2
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 2
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 2
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 2
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 2
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 2
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 2
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 2
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 2
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 2
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 2
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 2
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 2
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 2
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 2
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 2
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 2
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 2
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 2
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 2
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 2
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 2
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 2
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 2
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 2
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 2
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 2
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 2
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 3,
+      "Ver": 0,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Mercedes Sprinter",
+      "Description": "This is a taring for a Mercedes truck, with a tank volume of 520 liters. The measurement error is 0.01%. Taring was performed using an automatic taring station. Taring is not intended only for testing equipment. This taring is distributed free of charge.",
+      "CreationDate": "2023-07-05T15:07:42.3771548",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1 align='center'>Description</h1><p align='center'>Not created, please add the description.</p></body></html>",
+      "State": 16,
+      "TaringList": [
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 3
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 3
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 3
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 3
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 3
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 3
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 3
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 3
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 3
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 3
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 3
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 3
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 3
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 3
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 3
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 3
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 3
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 3
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 3
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 3
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 3
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 3
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 3
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 3
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 3
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 3
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 3
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 3
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 3
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 3
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 4,
+      "Ver": 0,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Ford Freightliner",
+      "Description": "This is a taring for a Ford truck, with a tank volume of 520 liters. The measurement error is 0.01%. Taring was performed using an automatic taring station. Taring is not intended only for testing equipment. This taring is distributed free of charge.",
+      "CreationDate": "2023-07-05T15:07:42.3771542",
+      "SensorLength": 30,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1 align='center'>Description</h1><p align='center'>Not created, please add the description.</p></body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 4
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 4
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 4
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 4
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 4
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 4
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 4
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 4
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 4
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 4
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 4
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 4
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 4
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 4
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 4
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 4
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 4
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 4
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 4
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 4
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 4
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 4
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 4
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 4
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 4
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 4
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 4
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 4
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 4
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 4
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 4
+  },
+  {
+    "Taring": {
+      "TaringID": 5,
+      "Ver": 0,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Mahindra Navistar MN35",
+      "Description": "This is a taring for a Mahindra truck, with a tank volume of 520 liters. The measurement error is 0.01%. Taring was performed using an automatic taring station. Taring is not intended only for testing equipment. This taring is distributed free of charge.",
+      "CreationDate": "2023-07-05T15:07:42.377139",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1 align='center'>Description</h1><p align='center'>Not created, please add the description.</p></body></html>",
+      "State": 16,
+      "TaringList": [
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 5
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 5
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 5
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 5
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 5
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 5
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 5
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 5
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 5
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 5
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 5
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 5
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 5
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 5
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 5
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 5
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 5
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 5
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 5
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 5
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 5
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 5
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 5
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 5
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 5
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 5
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 5
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 5
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 5
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 5
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 6,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 2",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T13:18:35",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 6
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 6
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 6
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 6
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 6
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 6
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 6
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 6
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 6
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 6
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 6
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 6
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 6
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 6
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 6
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 6
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 6
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 6
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 6
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 6
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 6
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 6
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 6
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 6
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 6
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 6
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 6
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 6
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 6
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 6
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 7,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T14:11:12",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 7
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 7
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 7
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 7
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 7
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 7
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 7
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 7
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 7
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 7
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 7
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 7
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 7
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 7
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 7
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 7
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 7
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 7
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 7
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 7
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 7
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 7
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 7
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 7
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 7
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 7
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 7
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 7
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 7
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 7
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 8,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T14:14:01",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 8
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 8
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 8
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 8
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 8
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 8
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 8
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 8
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 8
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 8
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 8
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 8
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 8
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 8
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 8
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 8
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 8
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 8
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 8
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 8
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 8
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 8
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 8
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 8
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 8
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 8
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 8
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 8
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 8
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 8
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 9,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T14:18:52",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 9
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 9
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 9
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 9
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 9
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 9
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 9
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 9
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 9
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 9
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 9
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 9
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 9
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 9
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 9
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 9
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 9
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 9
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 9
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 9
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 9
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 9
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 9
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 9
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 9
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 9
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 9
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 9
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 9
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 9
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 10,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 5",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T13:32:51",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 10
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 10
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 10
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 10
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 10
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 10
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 10
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 10
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 10
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 10
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 10
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 10
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 10
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 10
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 10
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 10
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 10
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 10
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 10
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 10
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 10
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 10
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 10
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 10
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 10
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 10
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 10
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 10
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 10
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 10
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 11,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 3",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T13:45:54",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 11
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 11
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 11
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 11
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 11
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 11
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 11
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 11
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 11
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 11
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 11
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 11
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 11
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 11
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 11
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 11
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 11
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 11
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 11
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 11
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 11
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 11
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 11
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 11
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 11
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 11
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 11
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 11
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 11
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 11
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 12,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T13:45:53",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 12
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 12
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 12
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 12
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 12
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 12
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 12
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 12
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 12
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 12
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 12
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 12
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 12
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 12
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 12
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 12
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 12
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 12
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 12
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 12
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 12
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 12
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 12
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 12
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 12
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 12
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 12
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 12
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 12
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 12
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 13,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T14:14:01",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 1</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/8/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/8/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/8/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 13
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 13
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 13
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 13
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 13
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 13
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 13
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 13
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 13
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 13
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 13
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 13
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 13
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 13
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 13
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 13
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 13
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 13
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 13
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 13
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 13
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 13
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 13
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 13
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 13
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 13
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 13
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 13
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 13
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 13
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 14,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T14:11:12",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 1</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/7/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/7/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/7/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 14
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 14
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 14
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 14
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 14
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 14
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 14
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 14
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 14
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 14
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 14
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 14
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 14
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 14
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 14
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 14
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 14
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 14
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 14
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 14
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 14
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 14
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 14
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 14
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 14
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 14
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 14
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 14
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 14
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 14
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 15,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T14:18:52",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 1</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/9/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/9/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/9/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 15
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 15
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 15
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 15
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 15
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 15
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 15
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 15
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 15
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 15
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 15
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 15
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 15
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 15
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 15
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 15
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 15
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 15
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 15
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 15
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 15
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 15
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 15
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 15
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 15
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 15
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 15
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 15
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 15
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 15
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 16,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 5",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T13:32:51",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 5</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/10/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/10/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/10/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 16
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 16
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 16
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 16
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 16
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 16
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 16
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 16
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 16
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 16
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 16
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 16
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 16
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 16
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 16
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 16
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 16
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 16
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 16
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 16
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 16
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 16
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 16
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 16
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 16
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 16
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 16
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 16
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 16
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 16
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 17,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 3",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T13:45:54",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 3</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/11/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/11/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/11/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 17
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 17
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 17
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 17
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 17
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 17
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 17
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 17
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 17
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 17
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 17
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 17
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 17
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 17
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 17
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 17
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 17
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 17
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 17
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 17
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 17
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 17
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 17
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 17
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 17
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 17
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 17
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 17
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 17
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 17
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 18,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring Kamaz",
+      "Description": "“‡ËÓ‚Í‡  ¿Ã¿« ÔÓ‰ ƒ”“ ‘‡ÌÚÓÏ",
+      "CreationDate": "2023-07-07T13:45:53",
+      "SensorLength": 500,
+      "DistanceX": 520,
+      "DistanceY": 320,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 1</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/12/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/12/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/12/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 18
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 18
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 18
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 18
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 18
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 18
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 18
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 18
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 18
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 18
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 18
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 18
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 18
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 18
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 18
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 18
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 18
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 18
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 18
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 18
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 18
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 18
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 18
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 18
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 18
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 18
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 18
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 18
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 18
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 18
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 19,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring KAMAZ",
+      "Description": "“¿–»–Œ¬ ¿  ¿Ã¿« ÔÓ‰ ƒ”“ ‘‡ÌÚÓÏ",
+      "CreationDate": "2023-07-06T14:14:01",
+      "SensorLength": 500,
+      "DistanceX": 53,
+      "DistanceY": 35,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 1</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/13/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/13/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/13/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 32,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 19
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 19
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 19
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 19
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 19
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 19
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 19
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 19
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 19
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 19
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 19
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 19
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 19
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 19
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 19
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 19
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 19
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 19
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 19
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 19
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 19
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 19
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 19
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 19
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 19
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 19
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 19
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 19
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 19
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 19
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 20,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring KAMAZ",
+      "Description": "“‡ËÓ‚Í‡  ¿Ã¿« ÔÓ‰ ƒ”“ ‘‡ÌÚÓÏ",
+      "CreationDate": "2023-07-06T14:11:12",
+      "SensorLength": 500,
+      "DistanceX": 400,
+      "DistanceY": 320,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 1</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/14/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/14/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/14/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 20
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 20
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 20
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 20
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 20
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 20
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 20
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 20
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 20
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 20
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 20
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 20
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 20
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 20
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 20
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 20
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 20
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 20
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 20
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 20
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 20
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 20
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 20
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 20
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 20
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 20
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 20
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 20
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 20
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 20
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 21,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 2",
+      "Description": "“‡ËÓ‚Í‡  ¿Ã¿« ÔÓ‰ ƒ”“ ‘‡ÌÚÓÏ",
+      "CreationDate": "2023-07-07T13:45:53",
+      "SensorLength": 500,
+      "DistanceX": 530,
+      "DistanceY": 34,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 32,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 21
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 21
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 21
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 21
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 21
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 21
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 21
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 21
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 21
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 21
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 21
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 21
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 21
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 21
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 21
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 21
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 21
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 21
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 21
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 21
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 21
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 21
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 21
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 21
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 21
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 21
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 21
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 21
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 21
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 21
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 22,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 4",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T13:45:54",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 22
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 22
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 22
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 22
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 22
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 22
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 22
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 22
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 22
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 22
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 22
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 22
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 22
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 22
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 22
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 22
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 22
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 22
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 22
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 22
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 22
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 22
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 22
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 22
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 22
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 22
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 22
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 22
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 22
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 22
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 23,
+      "Ver": 0,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 0,
+      "LevelMax": 1000,
+      "Title": "Test Kamaz",
+      "Description": "“‡ËÓ‚Í‡  ‡Ï‡Á ÔÓ‰ ƒ”“ ‘‡ÌÚÓÏ",
+      "CreationDate": "2023-07-07T11:30:36",
+      "SensorLength": 500,
+      "DistanceX": 530,
+      "DistanceY": 340,
+      "HtmlPage": "<html><body>\r\n                                    <h1 align='center' >Description</h1>\r\n                                    <p align='center' >not created</p>\r\n                                    </body></html>",
+      "State": 32,
+      "TaringList": [],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 24,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 5",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T13:45:54",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 24
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 24
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 24
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 24
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 24
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 24
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 24
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 24
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 24
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 24
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 24
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 24
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 24
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 24
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 24
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 24
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 24
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 24
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 24
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 24
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 24
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 24
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 24
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 24
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 24
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 24
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 24
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 24
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 24
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 24
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 25,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 2",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T13:18:35",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 2</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/6/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/6/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/6/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 25
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 25
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 25
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 25
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 25
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 25
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 25
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 25
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 25
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 25
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 25
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 25
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 25
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 25
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 25
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 25
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 25
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 25
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 25
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 25
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 25
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 25
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 25
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 25
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 25
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 25
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 25
+        },
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 25
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 25
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 25
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 26,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-06T14:18:52",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Taring Description - WebApplicationAuthenticationMVC</title>\r\n    <link rel=\"stylesheet\" href=\"/lib/bootstrap/dist/css/bootstrap.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/lib/font-awesome/css/all.min.css\" />\r\n    <link rel=\"stylesheet\" href=\"/css/site.css\" />\r\n</head>\r\n<body>\r\n    <h5 class=\"bg-info text-white text-center p-2\">Taring Description</h5>\r\n\r\n    <h5>Taring: Test taring 1</h5>\r\n    <h5>—reation date: 7/7/2023</h5>\r\n\r\n    <p>This taring is intended to test &#x27;Fantom&#x27; sensors. This taring contains a test data table</p>\r\n\r\n    <h5 class=\"bg-info text-white text-center p-2\">Photos of the installation location</h5>\r\n\r\n    <img src=\"/tarings/15/photos/1.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/15/photos/2.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n    <img src=\"/tarings/15/photos/3.jpeg\" alt=\"\" style=\"max-width: 100%\" />\r\n</body>\r\n</html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 26
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 26
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 26
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 26
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 26
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 26
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 26
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 26
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 26
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 26
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 26
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 26
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 26
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 26
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 26
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 26
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 26
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 26
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 26
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 26
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 26
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 26
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 26
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 26
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 26
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 26
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 26
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 26
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 26
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 26
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 27,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-07-07T14:57:30",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 27
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 27
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 27
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 27
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 27
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 27
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 27
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 27
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 27
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 27
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 27
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 27
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 27
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 27
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 27
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 27
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 27
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 27
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 27
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 27
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 27
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 27
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 27
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 27
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 27
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 27
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 27
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 27
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 27
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 27
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 28,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 1",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-06-09T13:28:36",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 28
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 28
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 28
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 28
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 28
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 28
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 28
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 28
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 28
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 28
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 28
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 28
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 28
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 28
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 28
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 28
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 28
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 28
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 28
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 28
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 28
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 28
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 28
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 28
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 28
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 28
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 28
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 28
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 28
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 28
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  },
+  {
+    "Taring": {
+      "TaringID": 29,
+      "Ver": 1,
+      "IsEncrypted": false,
+      "Units": 0,
+      "LitersMax": 292,
+      "LevelMin": 30,
+      "LevelMax": 4095,
+      "Title": "Test taring 2",
+      "Description": "This taring is intended to test 'Fantom' sensors. This taring contains a test data table",
+      "CreationDate": "2023-06-09T13:28:37",
+      "SensorLength": 0,
+      "DistanceX": 0,
+      "DistanceY": 0,
+      "HtmlPage": "<html><body><h1></h1>This is ‡ test taring!</body></html>",
+      "State": 1,
+      "TaringList": [
+        {
+          "Number": 28,
+          "Delta": 10,
+          "RawLevel": 3916,
+          "LitersLevel": 275,
+          "TaringID": 29
+        },
+        {
+          "Number": 27,
+          "Delta": 10,
+          "RawLevel": 3760,
+          "LitersLevel": 265,
+          "TaringID": 29
+        },
+        {
+          "Number": 26,
+          "Delta": 10,
+          "RawLevel": 3607,
+          "LitersLevel": 255,
+          "TaringID": 29
+        },
+        {
+          "Number": 25,
+          "Delta": 10,
+          "RawLevel": 3458,
+          "LitersLevel": 245,
+          "TaringID": 29
+        },
+        {
+          "Number": 24,
+          "Delta": 10,
+          "RawLevel": 3311,
+          "LitersLevel": 235,
+          "TaringID": 29
+        },
+        {
+          "Number": 23,
+          "Delta": 10,
+          "RawLevel": 3160,
+          "LitersLevel": 225,
+          "TaringID": 29
+        },
+        {
+          "Number": 22,
+          "Delta": 10,
+          "RawLevel": 3012,
+          "LitersLevel": 215,
+          "TaringID": 29
+        },
+        {
+          "Number": 21,
+          "Delta": 10,
+          "RawLevel": 2863,
+          "LitersLevel": 205,
+          "TaringID": 29
+        },
+        {
+          "Number": 20,
+          "Delta": 10,
+          "RawLevel": 2713,
+          "LitersLevel": 195,
+          "TaringID": 29
+        },
+        {
+          "Number": 19,
+          "Delta": 10,
+          "RawLevel": 2565,
+          "LitersLevel": 185,
+          "TaringID": 29
+        },
+        {
+          "Number": 18,
+          "Delta": 10,
+          "RawLevel": 2419,
+          "LitersLevel": 175,
+          "TaringID": 29
+        },
+        {
+          "Number": 17,
+          "Delta": 10,
+          "RawLevel": 2270,
+          "LitersLevel": 165,
+          "TaringID": 29
+        },
+        {
+          "Number": 16,
+          "Delta": 10,
+          "RawLevel": 2120,
+          "LitersLevel": 155,
+          "TaringID": 29
+        },
+        {
+          "Number": 29,
+          "Delta": 10,
+          "RawLevel": 4083,
+          "LitersLevel": 285,
+          "TaringID": 29
+        },
+        {
+          "Number": 15,
+          "Delta": 10,
+          "RawLevel": 1975,
+          "LitersLevel": 145,
+          "TaringID": 29
+        },
+        {
+          "Number": 13,
+          "Delta": 10,
+          "RawLevel": 1694,
+          "LitersLevel": 125,
+          "TaringID": 29
+        },
+        {
+          "Number": 12,
+          "Delta": 10,
+          "RawLevel": 1546,
+          "LitersLevel": 115,
+          "TaringID": 29
+        },
+        {
+          "Number": 11,
+          "Delta": 10,
+          "RawLevel": 1396,
+          "LitersLevel": 105,
+          "TaringID": 29
+        },
+        {
+          "Number": 10,
+          "Delta": 10,
+          "RawLevel": 1247,
+          "LitersLevel": 95,
+          "TaringID": 29
+        },
+        {
+          "Number": 9,
+          "Delta": 10,
+          "RawLevel": 1094,
+          "LitersLevel": 85,
+          "TaringID": 29
+        },
+        {
+          "Number": 8,
+          "Delta": 10,
+          "RawLevel": 942,
+          "LitersLevel": 75,
+          "TaringID": 29
+        },
+        {
+          "Number": 7,
+          "Delta": 10,
+          "RawLevel": 789,
+          "LitersLevel": 65,
+          "TaringID": 29
+        },
+        {
+          "Number": 6,
+          "Delta": 10,
+          "RawLevel": 636,
+          "LitersLevel": 55,
+          "TaringID": 29
+        },
+        {
+          "Number": 5,
+          "Delta": 10,
+          "RawLevel": 482,
+          "LitersLevel": 45,
+          "TaringID": 29
+        },
+        {
+          "Number": 4,
+          "Delta": 10,
+          "RawLevel": 335,
+          "LitersLevel": 35,
+          "TaringID": 29
+        },
+        {
+          "Number": 3,
+          "Delta": 10,
+          "RawLevel": 172,
+          "LitersLevel": 25,
+          "TaringID": 29
+        },
+        {
+          "Number": 2,
+          "Delta": 15,
+          "RawLevel": 67,
+          "LitersLevel": 15,
+          "TaringID": 29
+        },
+        {
+          "Number": 1,
+          "Delta": 0,
+          "RawLevel": 30,
+          "LitersLevel": 0,
+          "TaringID": 29
+        },
+        {
+          "Number": 14,
+          "Delta": 10,
+          "RawLevel": 1842,
+          "LitersLevel": 135,
+          "TaringID": 29
+        },
+        {
+          "Number": 30,
+          "Delta": 7,
+          "RawLevel": 4095,
+          "LitersLevel": 292,
+          "TaringID": 29
+        }
+      ],
+      "IsSelected": false,
+      "Tank": null
+    },
+    "Quantity": 1
+  }
+]
